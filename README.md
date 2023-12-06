@@ -1,7 +1,7 @@
 
 # Natours Node.js App
 
-![Natours Logo](link/to/logo.png)
+
 
 ## Description
 
