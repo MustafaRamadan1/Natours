@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    block head
+      title Natours | #{title}
+      link(rel='stylesheet' href='/css/style.css')
+      link(rel='shortcut icon' type='image/png' href='/img/logo-green-small.png')
+      meta(charset='UTF-8')
+      meta(name='viewport' content='width=device-width, initial-scale=1.0')
+      link(href='https://fonts.googleapis.com/css?family=Lato:300,300i,700' rel='stylesheet')
+      script(src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js')
+
+  body
+    // Header
+
+    include _header
+
+
+        
+    // Content
+
+    block content 
+      h1 this is a placeHolder hiding 
+    
+    // footer
+
+    include _footer
+    script(src='/js/login.js')
+    script(src='/js/logout.js')
+             
