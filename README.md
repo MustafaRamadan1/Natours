@@ -25,6 +25,11 @@ Make sure you have the following installed before running the application:
 - Node.js
 - npm (Node Package Manager)
 
+
+## Project Setup
+  - npm install        =====  for Install the dependencies of the project
+  - npm start          ====    Start the project 
+
 ## Installation
 
 1. Clone the repository:
